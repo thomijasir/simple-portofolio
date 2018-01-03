@@ -1,0 +1,143 @@
+/* Main CSS Control & Styling
+*******************************/
+html{
+
+}
+
+body {
+    font-family: 'Varela Round', sans-serif !important;
+    font-size: 14px;
+    background: #fafaf5;
+    overflow-x: hidden;
+    color: #404040;
+    -webkit-overflow-scrolling: touch
+}
+
+/* Sidebar Control
+*******************************/
+
+.dark-sidebar #side-bar,
+.dark-sidebar .sub-menu{
+    background: #2f2f2f;
+}
+#navigation li.current-menu-item a:before, #navigation li.current-menu-parent >a:before, #navigation .nav-prev>a:before{
+    background:#dc971f;
+}
+.dark-sidebar #navigation li {
+    border-top: none;
+    border-bottom: none;
+    cursor: pointer;
+    margin-bottom: 0;
+    background: #2c2c2c;
+    margin-bottom:6px;
+}
+.dark-sidebar #navigation li a {
+    box-shadow: inset -4px 0px 6px -4px #000;
+}
+.dark-sidebar #navigation li a:hover,
+.dark-sidebar #navigation li a:focus,
+.dark-sidebar #navigation li.current-menu-item a,
+.dark-sidebar #navigation li.current-menu-parent > a {
+    color: #E1E1E1;
+    background: #2a2a2a;
+}
+
+.dark-sidebar #navigation ul.sub-menu li {
+    border-bottom: none;
+    border-top: none;
+}
+.dark-sidebar #navigation ul.sub-menu li.nav-prev a{
+    background:#2a2a2a;
+    color:#e1e1e1;
+}
+.dark-sidebar #copyright:after{
+    background-color: #2a2a2a;
+    box-shadow: 0 1px 0 0 #383838;
+}
+
+.dark-sidebar #inner-bar{
+    background:#222;
+}
+
+/* Title & Saction
+*******************************/
+.small-title-section{
+    margin-bottom: 20px;
+    padding-bottom: 2px;
+    border-bottom: 1px #000000 solid;
+}
+.sub-small-title{
+    font-size: 18px;
+    margin-bottom: 2px;
+}
+.sub-small-desc{
+    font-style: italic;
+    font-weight: lighter;
+    margin-bottom: 15px;
+}
+
+/* Cards Controls
+*******************************/
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.card img{
+    width: 100%;
+    height: 200px;
+}
+
+.content {
+    padding: 2px 16px;
+}
+
+/* Gutter Cut Setting
+*******************************/
+
+.no-gutter > [class*='col-'] {
+    padding-right:0;
+    padding-left:0;
+}
+.gutter-control > [class*='col-'] {
+    padding:10px;
+}
+/* Gutter Cut Setting
+*******************************/
+.content-center{
+    background-color: #1c1c1c !important;
+}
+.content-img img{
+    width: 100%;
+    height: 400px;
+}
+.post-contents{
+    background-color: #FAFAFA;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px dashed #fafaf5;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+}
+
+/* Metro Color
+*******************************/
+.metro-style{
+    color: #ffffff;
+    padding: 20px;
+}
+.red{
+    background-color: red;
+    height: 150px;
+}
